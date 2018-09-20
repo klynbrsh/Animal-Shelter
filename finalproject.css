@@ -1,0 +1,172 @@
+.header {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 75px;
+}
+.title {
+	height:100%;
+	width:35%;
+	padding-left:10px;
+	background: rgba(66, 134, 244, 0.6);
+	color: white;
+	text-decoration:bold;
+	font-size: 56px;
+}
+
+.main5 table {
+	 float:center;
+}
+.menu {
+	position: absolute;
+	top:75px;
+	left:0;
+	width:100%;
+	height:40px;
+}
+
+.content, .content2, .content3, .content4, .content5 {
+	position: absolute;
+	top:115px;
+	left:0;
+	width:100%;
+}
+
+.sb1, .main, .sb2{
+	float:left;
+	background-color:#ffffff;
+	margin-top:5%;
+	padding-left: 2pt;
+}
+
+.sb1{
+	margin-left:0;
+	width:23%;
+	font-size: 32pt;
+	text-align: center;
+}
+
+.main {
+	margin-left:1%;
+	margin-right:1%;
+	width:50%;
+	text-align: center;
+}
+.main ol {
+	font-size:14pt;
+	font-weight: normal;
+	text-align:center;
+}
+.main ul {
+	font-size:14pt;
+	font-weight: normal;
+	text-align: center;
+}
+.sb2{
+	margin-right:0;
+	width:23%;
+	font-size: 32pt;
+	text-align: center;
+}
+.sb1 h1{
+	font-size: 18pt;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.sb2 a{
+	font-size: 14pt;
+	font-weight: normal;
+}
+.sb2 table{
+	padding-left: 28%;
+
+}
+body {
+	background-image: url('../park.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 125%;
+}
+form1{
+	margin-left: 0pt;
+	text-align:center;
+}
+h1,h2,p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 32pt;
+	color:#000000;
+	font-weight:normal;
+	background-color:#FFFFFF;
+	text-align:left;
+}
+h2 {
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+img {
+	float: center;
+}
+p {
+	font-size:12pt;
+	font-style:italic;
+	text-align:center;
+}
+
+.sb2 p{
+	text-align:center;
+}
+
+p.classname {
+	font-size:12pt;
+}
+.content3 .sb2 ul{
+	margin-right:20pt;
+}
+.content4 .sb2 ul{
+	margin-right:20pt;
+}
+.menubar {
+	list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#000000;
+	margin-bottom:10px;
+}
+
+.menubtn {
+    float:left;
+	display:inline-block;
+}
+
+.menubtn a, .dropbtn {
+    display:inline-block;
+    color:#FFFFFF;
+	font-weight:bold;
+    text-align:center;
+    padding:7px 16px;
+    text-decoration:none;
+	font-size: 14pt;
+}
+
+.menubtn:hover .dropbtn {
+    background-color:#05C505;
+}
+.content5 #table1{
+	margin-left:45pt;
+}
+
+
+#footer{
+	width:100%;
+	height:50px;
+	font-size: 18px;
+	background: rgba(66, 134, 244, 0.6);
+	text-align: center;
+	clear: left;
+}
+#footer a {
+	color:white;
+}
